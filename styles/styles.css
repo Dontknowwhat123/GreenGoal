@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+nav ul {
+    background-color: rgb(175, 255, 175);
+}
+
+nav ul li {
+    text-decoration: none;
+    font-size: 13px;
+    text-align: left;
+    list-style-type: none;
+    margin-top: -1.9px;
+    border-color: black;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 11px;
+    transition: 0.3s;
+}
+
+nav ul li a img {
+    width: auto;
+    height: 32px;
+}
+
+header nav a:hover {
+    background-color: rgb(19, 198, 73);
+    transition: 0.3s;
+}
+
+main {
+    background-color: bisque;
+}
+
+main h1 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main h1 span {
+    text-shadow: rgb(0, 193, 0) 2px 2px;
+}
+
+main p:first-of-type {
+    width: 70%;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 2em;
+}
+
+main p:last-of-type {
+    text-align: end;
+    padding-right: 10px;
+    font-size: 12px;
+    line-height: 2em;
+    padding-left: 40%;
+    padding-top: 40px;
+}
+
+/* start pagina 2*/
+
+main div {
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+main div a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    flex-direction: column-reverse;
+}
