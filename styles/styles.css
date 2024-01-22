@@ -42,11 +42,11 @@ header nav a:hover {
 
 main {
     background-color: bisque;
-
 }
 
 .gif {
     padding-left: 45%;
+    padding-top: 10px;
 }
 
 main h1 {
