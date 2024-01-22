@@ -67,14 +67,30 @@ main p:first-of-type {
     line-height: 2em;
 }
 
-main p:last-of-type {
+main p:nth-of-type(2) {
     text-align: end;
     padding-right: 10px;
     font-size: 12px;
     line-height: 2em;
-    padding-left: 40%;
-    padding-top: 40px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main p:nth-of-type(3) {
+    text-align: left;
+    font-size: 12px;
+    line-height: 2em;
+    padding-right: 40%;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+main p:nth-of-type(4) {
+    text-align: center;
+    font-size: 12px;
+    line-height: 2em;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -102,4 +118,26 @@ main div a {
     background-color: white;
     flex-direction: column;
     display: flex;
+}
+
+.foto {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.mannequin {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    display: flex;
+}
+
+.mannequin img {
+    width: 100px;
+    height: fit-content;
+}
+
+main p span {
+    text-shadow: 2px 2px rgb(87, 183, 255);
 }
