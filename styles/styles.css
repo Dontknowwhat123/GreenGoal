@@ -60,6 +60,24 @@ main h1 span {
     text-shadow: rgb(0, 193, 0) 2px 2px;
 }
 
+.mannequin {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    display: flex;
+    text-align: end;
+    padding-right: 10px;
+    font-size: 12px;
+    line-height: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mannequin img {
+    width: 100px;
+    height: fit-content;
+}
+
 main p:first-of-type {
     width: 70%;
     padding-left: 10px;
@@ -67,13 +85,14 @@ main p:first-of-type {
     line-height: 2em;
 }
 
-main p:nth-of-type(2) {
+.text {
     text-align: end;
     padding-right: 10px;
     font-size: 12px;
     line-height: 2em;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 40%;
 }
 
 main p:nth-of-type(3) {
@@ -126,16 +145,10 @@ main div a {
     display: flex;
 }
 
-.mannequin {
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-left: 10px;
-    display: flex;
-}
 
-.mannequin img {
-    width: 100px;
-    height: fit-content;
+
+.titel {
+    text-shadow: 2px 2px yellow;
 }
 
 main p span {
