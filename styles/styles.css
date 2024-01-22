@@ -42,15 +42,11 @@ header nav a:hover {
 
 main {
     background-color: bisque;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .gif {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
+    padding-left: 45%;
 }
 
 main h1 {
